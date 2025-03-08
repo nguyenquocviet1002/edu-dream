@@ -1,0 +1,50 @@
+@import "reset";
+@import "variable";
+
+html,
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  color: #515151;
+  line-height: 1.4;
+}
+
+section[id] {
+  scroll-margin-top: 103px;
+  @media (max-width: 767px) {
+    scroll-margin-top: 120px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: auto;
+}
+
+@media only screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1290px;
+  }
+}

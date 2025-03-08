@@ -1,0 +1,90 @@
+.about_edu_2_0_0 {
+  padding: 70px 0 40px;
+  background-color: #f6f6f6;
+}
+.about_edu_2_0_0__inner {
+  display: flex;
+  align-items: center;
+}
+.about_edu_2_0_0__description {
+  width: 40%;
+  padding: 15px 0;
+}
+.about_edu_2_0_0__img {
+  width: 60%;
+  padding-left: 15px;
+  padding-right: 50px;
+  position: relative;
+}
+.about_edu_2_0_0__img > img {
+  width: 80%;
+  height: auto;
+  display: block;
+}
+.about_edu_2_0_0__titleSecond {
+  color: #FFCE00;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.about_edu_2_0_0__titleMain {
+  color: #212B7E;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.about_edu_2_0_0__text {
+  line-height: 1.6;
+}
+.about_edu_2_0_0__thumb {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  width: 250px;
+}
+.about_edu_2_0_0__thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.about_edu_2_0_0__slogan {
+  background-color: #212B7E;
+  padding: 30px;
+  border-radius: 17px;
+  width: 255px;
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+}
+.about_edu_2_0_0__logo {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.about_edu_2_0_0__logo img {
+  width: 50px;
+  height: auto;
+  display: block;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.about_edu_2_0_0__sloganText {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+  position: relative;
+  padding-bottom: 30px;
+}
+.about_edu_2_0_0__sloganText::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 40%;
+  height: 3px;
+  background-color: #fff;
+}

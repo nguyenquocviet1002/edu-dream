@@ -1,0 +1,124 @@
+.about_edu_1_0_0 {
+  padding: 40px 0;
+}
+.about_edu_1_0_0__inner {
+  display: flex;
+  align-items: center;
+}
+.about_edu_1_0_0__img, .about_edu_1_0_0__description {
+  width: 50%;
+  padding: 0 15px;
+}
+.about_edu_1_0_0__img {
+  padding-right: 50px;
+}
+.about_edu_1_0_0__img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.about_edu_1_0_0__content {
+  margin-bottom: 30px;
+}
+.about_edu_1_0_0__titleSecond {
+  color: #FFCE00;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.about_edu_1_0_0__titleMain {
+  color: #212B7E;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.about_edu_1_0_0__text {
+  line-height: 1.6;
+}
+.about_edu_1_0_0__btn {
+  text-align: left;
+}
+.about_edu_1_0_0__btn a {
+  display: inline-block;
+  background-color: #FFCE00;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: #212B7E;
+  font-weight: 600;
+  transition: all 0.5s ease;
+}
+.about_edu_1_0_0__btn a:hover {
+  background-color: #000186;
+  color: #fff;
+}
+.about_edu_1_0_0__contact {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.about_edu_1_0_0__svg {
+  width: 50px;
+  height: 50px;
+  background-color: #000186;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.about_edu_1_0_0__svg img {
+  width: 60%;
+  height: 60%;
+  display: block;
+}
+.about_edu_1_0_0__label {
+  margin-bottom: 5px;
+  color: #212B7E;
+}
+.about_edu_1_0_0__phone {
+  font-weight: 700;
+  font-size: 20px;
+  color: #212B7E;
+}
+@media (max-width: 1200px) {
+  .about_edu_1_0_0__img {
+    padding-right: 15px;
+  }
+  .about_edu_1_0_0__titleMain {
+    font-size: 31px;
+    margin-bottom: 20px;
+  }
+  .about_edu_1_0_0__content {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .about_edu_1_0_0__img, .about_edu_1_0_0__description {
+    padding: 0 5px;
+  }
+}
+@media (max-width: 767px) {
+  .about_edu_1_0_0__inner {
+    flex-direction: column;
+  }
+  .about_edu_1_0_0__img, .about_edu_1_0_0__description {
+    width: 100%;
+    padding: 0;
+  }
+  .about_edu_1_0_0__img {
+    max-width: 380px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .about_edu_1_0_0 {
+    padding: 20px 0;
+  }
+  .about_edu_1_0_0__titleSecond {
+    font-size: 18px;
+  }
+  .about_edu_1_0_0__titleMain {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+}
